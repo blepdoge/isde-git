@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.metrics.pairwise import euclidean_distances, pairwise_distances
-from src.fun_utils import *
+from fun_utils import *
 
 class NMC(object):
     """
