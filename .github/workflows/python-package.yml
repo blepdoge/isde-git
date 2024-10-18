@@ -8,6 +8,8 @@ on:
     branches: [ main, release, solution ]
   pull_request:
     branches: [ main, release, solution ]
+  workflow_dispatch:
+    branches: [ main, release, solution ]
 
 jobs:
   build:
